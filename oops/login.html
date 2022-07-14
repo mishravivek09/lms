@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="container">
+        <h2 class="title">Sign In</h2>
+        <form id="Login">
+            <input id="name" type="text" placeholder="enter your name">
+            <input id="email" type="email" placeholder="enter your email">
+            <input id="passwd" type="password" placeholder="enter password">
+            <p>Select Profile</p>
+            <select id="select">
+                <option value="student">student</option>
+                <option value="admin">admin</option>
+            </select>
+            <button onclick="logIn()" id="login">Login</button>
+        </form>
+        <a href="index.html">New User ?</a>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

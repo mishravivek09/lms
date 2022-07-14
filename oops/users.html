@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Users</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="container">
+        <h2 class="title">Add Users</h2>
+        <form id="Signup">
+            <input id="name" type="text" placeholder="enter name">
+            <input id="email" type="email" placeholder="enter email">
+            <input id="passwd" type="password" placeholder="enter password">
+            <p>Select Profile</p>
+            <select id="select">
+                <option value="student">student</option>
+                <option value="admin">admin</option>
+            </select>
+            <button id="signup" onclick="signUp()">Add User</button>
+        </form>
+        <a href="admin.html">Visit Admin Panel</a>
+    </div>
+</body>
+<script src="./users.js"></script>
+</html>

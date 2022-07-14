@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <div id="admin">
+        <h2>Admin Panel</h2>
+    </div>
+    <div id="links">
+        <a href="users.html"><button class="nav">Add Users</button></a>
+        <a href="assignment.html"><button class="nav">Add Assignments</button></a>
+        <a href="lecture.html"><button class="nav">Add Lectures</button></a>
+        <button class="nav" onclick="logout()">Logout</button>
+        <button class="sens" onclick="clearAssign()">Delete Assignments</button>
+        <button class="sens" onclick="clearLec()">Delete Lectures</button>
+    </div>
+    <hr style="color:black;margin-bottom: 25px;">
+    <table>
+        <thead>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Email</th>
+            <th>Profile</th>
+            <th>Remove users</th>
+        </thead>
+        <tbody id="Users">
+        </tbody>
+    </table>
+</body>
+<script src="./admin.js"></script>
+
+</html>
