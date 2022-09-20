@@ -1,7 +1,8 @@
 # Masai School LMS.
-Tech Stack => HTML, CSS, JAVASCRIPT.
-</br>
+
 A simple course platform of masai school.
+</br>
+Tech Stack => HTML, CSS, JAVASCRIPT.
 --------------------------------------------
 1 => First of all you have to register a user as a student or admin.
 </br>
